@@ -1,0 +1,80 @@
+body {
+    background: url(https://cdn.pfps.gg/banners/8401-white-tree.gif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.BoBy {
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    border: #1d1e20 3px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 530px;
+    margin: 0;
+    padding: 10px 20px;
+}
+.profile img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-top: -160px;
+    border: #1d1e20 4px solid;
+}
+
+.Name {
+    background-color: rgb(24, 24, 24);
+    width: 100px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(202, 195, 195);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    margin-top: 10px;
+    padding: 4px 8px;
+    box-shadow: 4px 5px 10px #363738;
+}
+
+.instagram, 
+.github, 
+.discord {
+    width: 230px;
+    height: 40px;
+    background-color: #1d1e20;
+    border: rgb(37, 36, 36)  3px solid;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.instagram:hover, .github:hover, .discord:hover {
+    background-color: #0056b3;
+}
+
+.instagram_p, .github_p, .discord_p {
+    font-size: 25px;
+    color: rgb(244, 238, 238);
+    margin-left: 15px;
+}
+.bxl-github, .bxl-instagram, .bxl-discord-alt {
+    font-size: 30px;
+    justify-content: left;
+    align-items: end;
+    margin-left: -10px;
+}
